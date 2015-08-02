@@ -1,7 +1,8 @@
 Source: sni-qt
 Section: x11
 Priority: optional
-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Felix Geyer <fgeyer@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                libdbusmenu-qt-dev,
@@ -11,9 +12,8 @@ Build-Depends: cmake,
                xvfb,
 Standards-Version: 3.9.2
 Homepage: https://launchpad.net/sni-qt
-# If you aren't a member of ~canonical-dx-team but need to upload packaging changes,
-# just go ahead.  ~canonical-dx-team will notice and sync up the code again.
-Vcs-Bzr: https://code.launchpad.net/~canonical-dx-team/sni-qt/trunk
+Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/sni-qt.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/qt/sni-qt.git
 
 Package: sni-qt
 Architecture: any
