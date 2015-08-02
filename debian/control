@@ -19,7 +19,7 @@ Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/qt/sni-qt.git
 Package: sni-qt
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
-Depends: libqtcore4 (>= 4:4.7.3-1ubuntu3~), ${misc:Depends}, ${shlibs:Depends}
+Depends: libqtgui4 (>= 4:4.8.7+dfsg-2~), ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
 Description: indicator support for Qt
  This plugin provides indicator support for Qt.  It allows applications
