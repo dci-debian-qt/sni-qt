@@ -10,6 +10,7 @@ Build-Depends: cmake,
                pkg-config,
                qt4-qmake,
                xvfb,
+               xauth
 Standards-Version: 3.9.2
 Homepage: https://launchpad.net/sni-qt
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/sni-qt.git
