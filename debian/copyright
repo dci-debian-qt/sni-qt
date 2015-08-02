@@ -1,7 +1,7 @@
-Format: http://dep.debian.net/deps/dep5/
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: sni-qt
-Upstream-Contact: Aurelien Gateau <aurelien.gateau@canonical.com>
-Source: https://launchpad.net/sni-qt/+download
+Upstream-Contact: Renato Filho <renato.filho@canonical.com>
+Source: https://launchpad.net/sni-qt
 
 File: *
 Copyright: 2011 Canonical Ltd
@@ -35,16 +35,16 @@ License: LGPL-2.1 (with additional exception)
  On Debian/Ubuntu systems, the full text of the LGPL v2.1 can be found in
  `/usr/share/common-licenses/LGPL-2.1'
 
-Files: added tests/manual/*
+Files: tests/manual/window.cpp tests/manual/main.cpp tests/manual/window.h
 Copyright: 2011 Nokia Corporation and/or its subsidiary(-ies)
-License: BSD
+License: BSD-3-clause
  You may use this file under the terms of the BSD license as follows:
  .
  "Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are
  met:
-  * Redistributions of source code must retain the above copyright
-    notice, this list of conditions and the following disclaimer.
+   * Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
    * Redistributions in binary form must reproduce the above copyright
      notice, this list of conditions and the following disclaimer in
      the documentation and/or other materials provided with the
