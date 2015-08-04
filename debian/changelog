@@ -1,6 +1,6 @@
-sni-qt (0.2.7+15.10.20150729-1) UNRELEASED; urgency=medium
+sni-qt (0.2.7+15.10.20150729-1) experimental; urgency=medium
 
   * Initial release based on the Ubuntu package. (Closes: #712938)
     Thanks to everyone who worked on it.
 
- -- Felix Geyer <fgeyer@debian.org>  Sun, 02 Aug 2015 20:47:06 +0200
+ -- Felix Geyer <fgeyer@debian.org>  Tue, 04 Aug 2015 22:25:30 +0200
